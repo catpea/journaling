@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "journaling",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Journaling Storage Engine",
   "main": "index.js",
   "scripts": {
