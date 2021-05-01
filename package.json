@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "journaling",
+  "version": "1.0.0",
+  "description": "Journaling Storage Engine",
+  "main": "index.js",
+  "scripts": {
+    "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catpea/journaling.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catpea/journaling/issues"
+  },
+  "homepage": "https://github.com/catpea/journaling#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
